@@ -2,15 +2,15 @@
     <nav>
         <div>
             <a href="#">
-                <img src="" alt="">
+                <img src="../assets/openlab-logo.svg" alt="openlab-brand">
             </a>
             <button>
-                <img src="" alt=""> <!-- dropdown button -->
+                <span></span> <!-- dropdown button -->
             </button>
             <div>
                 <ul>
                     <li>
-                        <a>Úvod</a>
+                        <a href="#">Úvod</a>
                     </li>
                     <li>
                         <a href="#">OpenLab</a>
@@ -19,7 +19,7 @@
                                 <a href="#">HybridLab</a>
                             </li>
                             <li>
-                                <a>GamesLab</a>
+                                <a href="#">GamesLab</a>
                             </li>
                             <li>
                                 <a href="#">AppsLab</a>
@@ -27,7 +27,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a>Pre učiteľov</a>
+                        <a href="#" > Pre učiteľov</a>
                     </li>
                     <li>
                         <a href="#">Partneri</a>

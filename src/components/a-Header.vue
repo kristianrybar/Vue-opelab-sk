@@ -4,7 +4,7 @@
             <span>Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
             <a>
                 OPENLAB COMMUNITY
-                <img src=#>
+                <img src="../assets/discord.svg" alt="discord">
             </a>
         </div>
     </header>
