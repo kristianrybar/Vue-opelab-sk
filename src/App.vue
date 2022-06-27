@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import AHeader from './components/a-Header.vue'
-import ANav from './components/a-Nav.vue'
+import AHeader from '@/components/a-Header.vue'
+import ANav from '@/components/a-Nav.vue'
 import AMainpage from '@/components/a-Mainpage.vue'
 import AFooter from '@/components/a-Footer.vue'
 

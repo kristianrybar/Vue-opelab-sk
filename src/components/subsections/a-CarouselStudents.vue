@@ -79,7 +79,7 @@
                         </div>
                         <div>
                             <figure>
-                                <img src="../../assets/maxresdefault (1).jpg" alt="projekt-remno" width="300">
+                                <img src="../../assets/maxresdefault1.jpg" alt="projekt-remno" width="300">
                                 <img src="../../assets/play.svg" alt="play">
                             </figure>
                         </div>
