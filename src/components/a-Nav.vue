@@ -1,13 +1,15 @@
 <template>
-    <nav>
-        <div>
+    <nav class="navbar main-navbar navbar-expand-lg bg-white">
+        <div class="container">
             <a href="#">
                 <img src="../assets/openlab-logo.svg" alt="openlab-brand">
             </a>
-            <button>
-                <span></span> <!-- dropdown button -->
+            <button class="navbar-toggler border-0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> <!-- dropdown button -->
             </button>
-            <div>
+            <div id="navMenuContent">
                 <ul>
                     <li>
                         <a href="#">Úvod</a>
@@ -51,5 +53,16 @@ export default {
 </script>
 
 <style scoped>
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
+.navbar {
+    font-size: 14px;
+}
 </style>
