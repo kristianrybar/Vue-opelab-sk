@@ -1,0 +1,26 @@
+html {
+    letter-spacing: 1px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul, li {
+    margin: 0 !important;
+    list-style: none;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
