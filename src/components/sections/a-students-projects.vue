@@ -27,17 +27,21 @@
 </template>
 
 <script>
-import AcarouselStudents from '@/components/subsections/a-carousel-students.vue'
+import ACarouselStudents from '@/components/subsections/a-carousel-students.vue'
 
 export default {
     name:'a-students-projects',
     components: {
-        AcarouselStudents
+        ACarouselStudents
     }
 }
 </script>
 
 <style>
+#studentsProjetcts .container {
+    padding-bottom: 100px ;
+}
+
 .round-disk {
     position: absolute;
     overflow: hidden;
@@ -58,4 +62,16 @@ export default {
     height: auto;
     max-width: none;
 }
+
+@media (max-width: 1200px){
+    #studentsProjetcts .round-disk {
+        width: 251px;
+        height: 251px;
+        left: -125px;
+        }
+
+        #studentsProjetcts .round-disk img {
+        width: 100%;
+    }
+    }
 </style>

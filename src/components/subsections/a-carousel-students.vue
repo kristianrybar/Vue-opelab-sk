@@ -1,20 +1,20 @@
 <template >
     <div class="wrap-slider">
-        <div id="slider-44">
-            <div>
-                <button></button>
-                <button></button>
-                <button></button>
+        <div id="slider-44" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider-44" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider-44" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider-44" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="mb-5">
                                 Študentský projekt Mapovanie z HybridLabu
                             </h3>
-                            <p>
-                                Mapovanie je hybridná aplikácia, ktorá umožní
+                            <p class="text-dark">
+                                <strong>Mapovanie</strong> je hybridná aplikácia, ktorá umožní
                                 ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať
                                 ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych
                                 komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a
@@ -26,22 +26,22 @@
                                 verzii.
                             </p>
                         </div>
-                        <div>
-                            <figure>
-                                <img src="../../assets/maxresdefault.jpg" alt="projekt-mapovanie" width="300">
-                                <img src="../../assets/play.svg" alt="play">
+                        <div class="col-md-6">
+                            <figure class="position-relative">
+                                <img src="../../assets/maxresdefault.jpg" alt="projekt-mapovanie">
+                                <img class="play-img position-absolute" src="../../assets/play.svg" alt="play">
                             </figure>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>
+                <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="mb-5">
                                 Študentský projekt RealTopia z GamesLabu
                             </h3>
-                            <p>
-                                RealTopia je fantasy hra s 2D grafikou, ktorá
+                            <p class="text-dark">
+                                <strong>RealTopia</strong> je fantasy hra s 2D grafikou, ktorá
                                 nesie environmentálne posolstvo. Je v nej zakomponovaných množstvo
                                 faktov o ekológii, globalizácii a svete okolo nás. V jadre je jednoduchá
                                 Open World stratégia s Resource Managementom a Pixel Art grafikou.
@@ -52,22 +52,22 @@
                                 medzinárodného projektu Bridge 47.
                             </p>
                         </div>
-                        <div>
-                            <figure>
-                                <img src="../../assets/student-project-realtopia.png" alt="projekt-realtopia" width="300">
-                                <img src="../../assets/play.svg" alt="play">
+                        <div class="col-md-6">
+                            <figure class="position-relative">
+                                <img src="../../assets/student-project-realtopia.png" alt="projekt-realtopia">
+                                <img class="play-img position-absolute" src="../../assets/play.svg" alt="play">
                             </figure>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>
+                <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="mb-5">
                                 Študentský projekt Renmo z AppsLabu
                             </h3>
-                            <p>
-                                Remno je softvérová aplikácia, ktorá slúži ako
+                            <p class="text-dark">
+                                <strong>Remno</strong> je softvérová aplikácia, ktorá slúži ako
                                 rezervačný systém.
                                 Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať
                                 rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto
@@ -77,33 +77,35 @@
                                 Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular.
                             </p>
                         </div>
-                        <div>
-                            <figure>
-                                <img src="../../assets/maxresdefault1.jpg" alt="projekt-remno" width="300">
-                                <img src="../../assets/play.svg" alt="play">
+                        <div class="col-md-6">
+                            <figure class="position-relative">
+                                <img src="../../assets/maxresdefault1.jpg" alt="projekt-remno">
+                                <img class="play-img position-absolute" src="../../assets/play.svg" alt="play">
                             </figure>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <button>
-                    <span></span>
-                    <span>Previous</span>
+            <div class="d-block position-relative">
+                <button class="carousel-control-prev d-none d-md-block" type="button"
+                    data-bs-target="#slider-44" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button>
-                    <span></span>
-                    <span>Next</span>
+                <button class="carousel-control-next d-none d-md-block" type="button"
+                    data-bs-target="#slider-44" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div>
-                <a href="#" target="_blank">
+            <div class="col-12 position-relative">
+                <a class="text-decoration-none text-primary d-flex align-items-center position-relative z-index-1" href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw" target="_blank">
                     Pozrieť si všetky projekty
-                    <img src="../../assets/arrow-right-blue.svg" alt="arrow-right-blue" width="20">
+                    <img class="ms-2" src="../../assets/arrow-right-blue.svg" alt="arrow-right" style="margin-top: 3px;">
                 </a>
             </div>
         </div>
-    </div>    
+    </div>
 </template>
 
 <script>
@@ -114,5 +116,68 @@ export default {
 </script>
 
 <style scoped>
-    
+    #slider-44 figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#slider-44 .play-img {
+    display: inline;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)!important;
+}
+
+#slider-44 figure {
+    height: 400px;
+}
+
+#slider-44 .carousel-indicators {
+    top: 430px;
+}
+
+#slider-44 .carousel-indicators [data-bs-target] {
+    width: 11px !important;
+    height: 11px !important;
+    border-radius: 50%;
+    background-color: #3597ff;
+}
+
+#slider-44 .carousel-control-prev-icon {
+    background-image: url(../../assets/arrow-slide-left-active.svg);
+}
+
+#slider-44 .carousel-control-next-icon {
+    background-image: url(../../assets/arrow-slide-right-active.svg);
+}
+#slider-44 .carousel-control-next {
+    left: 38px;
+    width: 0;
+}
+
+#slider-44 .carousel-control-prev {
+    left: 0;
+    width: 0;
+}
+
+#slider-44 div:nth-child(4) {
+    top: 65px;
+}
+
+@media (max-width: 1400px) {
+    #slider-44 div:nth-child(4) {
+        top: 60px;
+    }
+}
+
+@media (max-width: 767.98px){
+    #slider-44 .carousel-indicators {
+        top: 96%;
+    }
+}
 </style>

@@ -15,10 +15,10 @@
                         <a href="#" class="nav-link">Úvod</a>
                     </li>
                     <li class="nav-item dropdown me-lg-3 d-lg-flex align-items-center">
-                        <!-- <a href="#" class="nav-link pe-0" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">OpenLab</a> -->
-                        <a class="nav-link dropdown-toggle d-inline d-none d-lg-block" href="#" id="openlabyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">OpenLab</a>
+                        <a href="#" class="nav-link pe-0" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">OpenLab</a>
+                        <a class="nav-link dropdown-toggle d-inline d-none d-lg-block" href="#" id="openlabyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true"></a>
                         <ul class="dropdown-menu border-0 p-0 stay-open-mobile" aria-labelledby="openlabyDropdown" data-bs-popper="none">
-                            <li class="mb-2 mb-lg-0 mt-3 mt-lg-0">
+                            <li class="mb-2 mb-lg-0 mt-2 mt-lg-0">
                                 <a class="dropdown-item" href="#">HybridLab</a>
                             </li>
                             <li class="mb-2 mb-lg-0">
@@ -90,6 +90,15 @@ export default {
     color: #3597ff !important;
 }
 
+.dropdown-item {
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .2s ease;
+}
+
+.navbar-nav {
+    text-align: center;
+}
 
 .dropdown-toggle:after {
     border: solid #1a232f; 
@@ -104,9 +113,25 @@ export default {
     background-color: #fff;
 }
 
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
 @media (min-width: 992px) {
     .navbar {
     height: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+    position: relative !important;
+    top: -13px !important;
+    left: 48% !important;
+    margin-top: 2% !important;
+    margin-bottom: -2% !important;
     }
 }
 </style>

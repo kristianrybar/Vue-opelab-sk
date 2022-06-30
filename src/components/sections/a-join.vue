@@ -15,6 +15,9 @@
             </div>
         </div>
         <a-carousel-join/>
+        <div class="round-disk d-none d-lg-block">
+            <img src="../../assets/o_letter.png" alt="round-disk">
+        </div>
     </section>
 </template>
 
@@ -32,5 +35,30 @@ export default {
 </script>
 
 <style scoped>
-    
+.round-disk {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    right: 0;
+    bottom: -200px;
+    z-index: -1;
+    width: 222px;
+}
+
+.round-disk img {
+    width: 400px;
+    height: auto;
+    max-width: none;
+}
+
+@media (max-width: 1500px){
+    .round-disk {
+        width: 150px;
+        bottom: -150px;
+        }
+
+    .round-disk img {
+        width: 300px;
+    }
+    }
 </style>
